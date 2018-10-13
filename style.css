@@ -31,13 +31,11 @@ a {
   color: rgba(255,255,255,.8);
 }
 .top-left{
-  display:inline-block;
   padding:0;
   margin:0 0 0 20px;
   float:left;
 }
 .top-link{
-  display: inline-block;
   padding: 0;
   margin: 0 20px 0 0;
   list-style: none;
@@ -54,11 +52,10 @@ a {
   background-color: rgb(32, 101, 136);
 }
 .search_header{
-  display: inline-block;
+  float: left;
   align-items: center;
   margin:5px 0 0 10px;
   width: 76%;
-  position: fixed;
 
 }
 .search_header input{
@@ -89,7 +86,7 @@ a {
 .logosearchleft{
   margin: 10 auto;
   padding: 5px 0 0 10px;
-  display: inline-block;
+  float:left;
 }
 .logosearchleft img{
   height: 40px;
@@ -100,11 +97,11 @@ a {
   float: right;
 }
 .logosearchright a{
-  margin: 20px auto;
+  margin: 10px auto;
   position: relative;
+  float:left;
 }
 .logosearchright{
-  display: inline-block;
   float: right;
   padding: 5px 10px 0 10px;
 }
